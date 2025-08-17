@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TCGAppraisal</string>
+    <string name="title_activity_main">TCGAppraisal</string>
+    <string name="package_name">dev.richardsawh.pokeprices</string>
+    <string name="custom_url_scheme">dev.richardsawh.pokeprices</string>
+</resources>
