@@ -152,29 +152,6 @@ print(f"Estimated Value: ${result['estimated_value']}")
 
 ## Configuration
 
-### Environment Variables
-
-Create a `.env` file in the backend directory:
-
-```env
-# API Configuration
-API_HOST=0.0.0.0
-API_PORT=8000
-DEBUG=false
-
-# Model Settings
-MODEL_PATH=./models/
-CONFIDENCE_THRESHOLD=0.7
-BATCH_SIZE=1
-
-# External Services
-PRICECHARTING_API_KEY=your_api_key_here
-REDIS_URL=redis://localhost:6379
-
-# Database
-DATABASE_URL=postgresql://user:pass@localhost/tcggrader
-```
-
 ### Model Configuration
 
 Customize grading parameters in `backend/app/config.py`:
