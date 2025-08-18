@@ -11,6 +11,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.utils.class_weight import compute_class_weight
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pillow_avif
 from collections import Counter
 from PIL import Image, UnidentifiedImageError
 from torch.utils.data import random_split
